@@ -485,7 +485,7 @@
             ensureLoaded('github', jStorage.providers, function () {
                 self.storage = jStorage({
                     'name': 'github',
-                    'repo': 'flowertwig-org/brfskagagard',
+                    'repo': 'BrfSkagagard/brfskagagard.github.io',
                     'token': token,
                     'callback': function (storage, callStatus) {
                         if (callStatus.isOK) {
@@ -508,7 +508,7 @@
                                     break;
                             }
                         } else {
-                            alert('Ogiltigt personligt åtkomsttoken.');
+                            alert('Ogiltigt personligt Ã¥tkomsttoken.');
                             writeCookie(cookieName, '');
                             location.reload();
                         }
@@ -530,7 +530,7 @@
             if (token) {
                 loadAdminState(token);
             } else {
-                alert('Ogiltigt personligt åtkomsttoken.');
+                alert('Ogiltigt personligt Ã¥tkomsttoken.');
             }
         });
     }
