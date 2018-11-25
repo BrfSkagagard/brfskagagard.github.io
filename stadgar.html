@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="viewport" content="width=device-width" />
-    <link type="text/css" href="style-v2.css" rel="stylesheet" />
+    <link type="text/css" href="style-v3.css" rel="stylesheet" />
     <style>
         h2,
         h3 {
@@ -32,7 +32,13 @@
                 </ul>
             </div>
         </div>
-        <div class="mood" style="background-image: url(&quot;./img/mood/default.jpg&quot; );"></div>
+        <div class="mood-v2">
+            <picture>
+                <source srcset="/img/mood/default.webp" type="image/webp">
+                <source srcset="/img/mood/default.jpg" type="image/jpeg"> 
+                <img class="mood-v2-image" src="/img/mood/default.jpg">
+            </picture>            
+        </div>
         <div class="container">
             <div class="breadcrum">
                 <a href="index.html">Start</a> > <a href="member.html">Medlem</a> > <span class="breadcrum-current-node">Stadgar</span>

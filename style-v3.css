@@ -51,6 +51,18 @@ body {
     background-size: cover;
 }
 
+.mood-v2 {
+    position: relative;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.mood-v2-image {
+    width: 100%;
+    border-top: #000 solid 1px;
+    border-bottom: #000 solid 1px;    
+}
+
 .mood-call-to-action-container {
     height: auto;
     padding: 50px 20px;
