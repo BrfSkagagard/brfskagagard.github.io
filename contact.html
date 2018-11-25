@@ -34,8 +34,14 @@
                 </ul>
             </div>
         </div>
-        <div class="mood" style="background-image: url(&quot;./img/mood/default.jpg&quot; );"></div>
-        <div class="container">
+        <div class="mood-v2">
+                <picture>
+                    <source srcset="/img/mood/default.webp" type="image/webp">
+                    <source srcset="/img/mood/default.jpg" type="image/jpeg"> 
+                    <img class="mood-v2-image" src="/img/mood/default.jpg">
+                </picture>            
+            </div>
+            <div class="container">
             <div class="breadcrum">
                 <a href="index.html">Start</a> >
                 <span class="breadcrum-current-node">Kontakt</span>
